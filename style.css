@@ -202,3 +202,23 @@ Media Queries
     grid-template-columns: repeat(1, 1fr);
   }
 }
+@media only screen and (min-width: 688px) and (max-width: 1200px) {
+  .players {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .courses {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
