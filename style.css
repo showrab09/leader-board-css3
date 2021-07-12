@@ -1,10 +1,10 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif;
 }
 body {
   background: #f3f1ff;
+  font-family: "Poppins", sans-serif;
 }
 hr {
   border: 1px solid black;
@@ -42,8 +42,9 @@ main {
 
   align-items: center;
 }
-.name {
+.name p {
   font-size: 18px;
+  font-weight: 500;
 }
 
 /* blog section */
@@ -75,4 +76,8 @@ main {
 }
 span {
   color: #562eff;
+  font-weight: 400;
+}
+.blog-author p {
+  color: gray;
 }
